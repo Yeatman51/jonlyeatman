@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import { BrowserRouter as Router, Route } from "react-router-dom";
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route  } from 'react-router-dom';
 import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
 import Wrapper from "./components/Wrapper.js";
@@ -20,7 +20,7 @@ function App() {
 
       <Header/>
 
-      <HashRouter>
+      <Router>
       <Navbar/>
       <Wrapper>
           <Route exact path="/" component={Home} />
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/About" component={About} />  
           <Route exact path="/Contact" component={Contact} />  
       </Wrapper>
-      </HashRouter>
+      </Router>
 
       <Footer/>
       

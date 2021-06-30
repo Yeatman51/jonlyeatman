@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <header>
-      <div id="yeatman-logo"></div>
+      <div className="yeatman-logo"></div>
 
       <h1 className="header-text">
       Full Stack Web Developer<br></br>
