@@ -1,0 +1,88 @@
+
+/* about pg */
+.about-text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.cont-profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.profile-pic {
+width: 215px;
+border-radius: 50%;
+box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.dividers-line {
+  border-top: 5px solid white;
+  margin-top: 10px;
+}
+  
+.email {
+  font-family: digital-7;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 45px;
+}
+
+.resume {
+  font-family: digital-7;
+  display: flex;
+  color: white;
+  margin-top: 15px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  background-color: var(--org);
+}
+
+.secret-message {
+  font-family: digital-7;
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+}
+
+@media screen and (max-width: 900px) {
+  /* about pg */
+  .about-text {
+    font-size: 22px;
+  }
+  .about-text-home {
+    font-size: 22px;
+  }
+  .email {
+    font-size: 35px;
+  }
+
+  .secret-message {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+  }
+  .icon-header {
+    font-size: 32px;
+  }
+
+}

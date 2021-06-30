@@ -1,0 +1,62 @@
+/* Photographer pg */
+
+.photographer-text-container{
+    color: white;
+  }
+  
+  .photographer-text-header {
+    color: white;
+    font-family: digital-7;
+    font-size: 70px;
+    text-align: center;
+    margin: 40px 0px 15px 0;
+  }
+  
+  .photographer-text-paragraph {
+    color: white;
+    font-size: 20px;
+  }
+
+.dividers-line {
+    border-top: 5px solid white;
+    margin-top: 10px;
+  }
+
+  /* CSS grid */
+.photography-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    overflow: hidden;
+    width: 100%;
+    padding: 25px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    
+}
+
+.photography-gallery-img {
+  max-width: 100%;
+  height: auto;
+  min-width: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .photographer-text-header {
+        font-size: 50px;
+        margin: 40px 0px 15px 0;
+      }
+      
+      .photographer-text-paragraph {
+        color: white;
+        font-size: 20px;
+      }
+
+    .photography-gallery {
+        grid-template-columns: minmax(300px, 1fr);
+        margin: 0px;
+    }
+
+}
