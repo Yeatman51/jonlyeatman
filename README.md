@@ -1,6 +1,6 @@
 ## Jon L Yeatman Portfolio
 
-<p align="center"><img src="src/assets/img/JonYeatmanTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
+<p align="center"><img src="client/src/assets/img/JonYeatmanTimeline.png" alt="Yeatman Header Photo" align="center"></p><br>
 
 ## Links:
 
