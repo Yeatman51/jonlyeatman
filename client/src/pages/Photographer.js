@@ -4,83 +4,83 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Photographer() {
 
-    const photographyImages = [
-        {
-        key: 1,
-        imgSrc:"/images/photos-img/Yeatman_1.jpg",
-        alt:"pic",
-        },
-        {
-        key: 2,
-        imgSrc:"/images/photos-img/Yeatman_2.jpg",
-        alt:"pic",
-        },
-        {
-        key: 3,
-        imgSrc:"/images/photos-img/Yeatman_3.jpg",
-        alt:"pic"
-        },
-        {
-        key: 4,
-        imgSrc:"/images/photos-img/Yeatman_4.jpg",
-        alt:"pic"
-        },
-        {
-        key: 5,
-        imgSrc:"/images/photos-img/Yeatman_5.jpg",
-        alt:"pic"
-        },
-        {
-        key: 6,
-        imgSrc:"/images/photos-img/Yeatman_6.jpg",
-        alt:"pic"
-        },
-        {
-        key: 7,
-        imgSrc:"/images/photos-img/Yeatman_7.jpg",
-        alt:"pic"
-        },
-        {
-        key: 8,
-        imgSrc:"/images/photos-img/Yeatman_8.jpg",
-        alt:"pic"
-        },
-        {
-        key: 9,
-        imgSrc:"/images/photos-img/Yeatman_9.jpg",
-        alt:"pic"
-        },
-        {
-        key: 10,
-        imgSrc:"/images/photos-img/Yeatman_10.jpg",
-        alt:"pic"
-        },
-        {
-        key: 11,
-        imgSrc:"/images/photos-img/Yeatman_11.jpg",
-        alt:"pic"
-        },
-        {
-        key: 12,
-        imgSrc:"/images/photos-img/Yeatman_12.jpg",
-        alt:"pic"
-        },
-        {
-        key: 13,
-        imgSrc:"/images/photos-img/Yeatman_13.jpg",
-        alt:"pic"
-        },
-        {
-        key: 14,
-        imgSrc:"/images/photos-img/Yeatman_14.jpg",
-        alt:"pic"
-        },
-        {
-        key: 15,
-        imgSrc:"/images/photos-img/Yeatman_15.jpg",
-        alt:"pic"
-        }
-    ]
+  const photographyImages = [
+    {
+      key: 1,
+      imgSrc:"/images/photos-img/Yeatman_1.jpg",
+      alt:"pic"
+    },
+    {
+      key: 2,
+      imgSrc:"/images/photos-img/Yeatman_2.jpg",
+      alt:"pic"
+    },
+    {
+      key: 3,
+      imgSrc:"/images/photos-img/Yeatman_3.jpg",
+      alt:"pic"
+    },
+    {
+      key: 4,
+      imgSrc:"/images/photos-img/Yeatman_4.jpg",
+      alt:"pic"
+    },
+    {
+      key: 5,
+      imgSrc:"/images/photos-img/Yeatman_5.jpg",
+      alt:"pic"
+    },
+    {
+      key: 6,
+      imgSrc:"/images/photos-img/Yeatman_6.jpg",
+      alt:"pic"
+    },
+    {
+      key: 7,
+      imgSrc:"/images/photos-img/Yeatman_7.jpg",
+      alt:"pic"
+    },
+    {
+      key: 8,
+      imgSrc:"/images/photos-img/Yeatman_8.jpg",
+      alt:"pic"
+    },
+    {
+      key: 9,
+      imgSrc:"/images/photos-img/Yeatman_9.jpg",
+      alt:"pic"
+    },
+    {
+      key: 10,
+      imgSrc:"/images/photos-img/Yeatman_10.jpg",
+      alt:"pic"
+    },
+    {
+      key: 11,
+      imgSrc:"/images/photos-img/Yeatman_11.jpg",
+      alt:"pic"
+    },
+    {
+      key: 12,
+      imgSrc:"/images/photos-img/Yeatman_12.jpg",
+      alt:"pic"
+    },
+    {
+      key: 13,
+      imgSrc:"/images/photos-img/Yeatman_13.jpg",
+      alt:"pic"
+    },
+    {
+      key: 14,
+      imgSrc:"/images/photos-img/Yeatman_14.jpg",
+      alt:"pic"
+    },
+    {
+      key: 15,
+      imgSrc:"/images/photos-img/Yeatman_15.jpg",
+      alt:"pic"
+    }
+  ]
   return (
     <div>
         <div className="photographer-text-container">
