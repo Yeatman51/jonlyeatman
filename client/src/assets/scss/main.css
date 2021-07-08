@@ -350,6 +350,9 @@ nav {
 }
 .contact-form-container {
   min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-text-header {
@@ -383,20 +386,30 @@ nav {
   width: 100%;
 }
 
-.contact-form-submit {
-  background-color: #ca6410;
-  color: white;
-  border: 3px solid white;
+.contact-form-name {
+  background-color: transparent;
+  border: 3px solid #ca6410;
   border-radius: 1rem;
+  color: white;
   font-size: 2vw;
+  padding: 1vw 1.3vw 1vw 1.3vw;
+}
+
+.contact-form-submit {
+  font-family: digital-7;
+  background-color: transparent;
+  color: white;
+  border: 3px solid #ca6410;
+  border-radius: 1rem;
+  font-size: 2.5vw;
   padding: 1.3vw;
 }
 
 .contact-form-submit:hover,
 .contact-form-submit:focus {
-  background-color: #094D84;
-  color: #ca6410;
-  border: 3px solid #ca6410;
+  background-color: rgba(114, 82, 13, 0.555);
+  color: white;
+  border: 3px solid white;
 }
 
 /* home pg */
