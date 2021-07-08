@@ -1,0 +1,50 @@
+.contact-form-container {
+    min-height: 80vh;
+}
+.contact-text-header {
+    color: white;
+    font-family: digital-7;
+    font-size: 5em;
+    text-align: center;
+}
+
+.contact-form-text {
+    color: white;
+    font-family: digital-7;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.contact-form {
+    max-width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient($blue, $orange);
+    border: 3px solid $orange;
+    font-family: digital-7;
+    border-radius: 25px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form-submit{
+    background-color: $orange;
+    color: white;
+    border: 3px solid white;
+    border-radius: 1rem;
+    font-size: 2vw;
+    padding: 1.3vw;
+}
+
+.contact-form-submit:hover,
+.contact-form-submit:focus {
+    background-color: $blue;
+    color: $orange;
+    border: 3px solid $orange
+}

@@ -348,6 +348,57 @@ nav {
     height: 85%;
   }
 }
+.contact-form-container {
+  min-height: 80vh;
+}
+
+.contact-text-header {
+  color: white;
+  font-family: digital-7;
+  font-size: 5em;
+  text-align: center;
+}
+
+.contact-form-text {
+  color: white;
+  font-family: digital-7;
+  font-size: 3em;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#094D84, #ca6410);
+  border: 3px solid #ca6410;
+  font-family: digital-7;
+  border-radius: 25px;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-form-submit {
+  background-color: #ca6410;
+  color: white;
+  border: 3px solid white;
+  border-radius: 1rem;
+  font-size: 2vw;
+  padding: 1.3vw;
+}
+
+.contact-form-submit:hover,
+.contact-form-submit:focus {
+  background-color: #094D84;
+  color: #ca6410;
+  border: 3px solid #ca6410;
+}
+
 /* home pg */
 .about-text-home {
   margin-top: 20px;
