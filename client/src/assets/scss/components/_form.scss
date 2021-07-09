@@ -37,12 +37,18 @@
     width: 100%;
 }
 
+label {
+    color: white;
+    font-size: 2vw;
+    
+}
+
 .contact-form-name {
     background-color: transparent;
     border: 3px solid $orange;
     border-radius: 1rem;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 1vw 1.3vw 1vw 1.3vw;
 
 }
