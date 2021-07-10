@@ -43,7 +43,10 @@ label {
     
 }
 
-.contact-form-name {
+.contact-form-name,
+.contact-form-email,
+.contact-form-subject,
+.contact-form-message  {
     background-color: transparent;
     border: 3px solid $orange;
     border-radius: 1rem;
