@@ -119,7 +119,8 @@ function Form() {
             <h2 className="contact-form-text">JON YEATMAN</h2>
 
             <form className="contact-form" id="message-form">
-            <label htmlFor="contact-form-label-name">Full Name</label>
+                
+                <label htmlFor="contact-form-label-name">Full Name</label>
                 <input 
                     type="text" 
                     name="fullName"

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function modal_1() {
+function Modal1() {
     return (
         <div>
             <div className="modal-container">
@@ -17,4 +17,4 @@ function modal_1() {
     )
 }
 
-export default modal_1
+export default Modal1

@@ -1,7 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+
+  const [navbarOpen, setNavbarOpen] = useState(false)
+
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen)
+  }
+
+  const closeMenu = () => {
+    setNavbarOpen(false)
+  }
+
   return (
     <nav>
         <input id="nav-toggle" type="checkbox"></input>
