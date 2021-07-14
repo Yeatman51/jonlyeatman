@@ -13,10 +13,15 @@ function Navbar() {
     setNavbarOpen(false)
   }
 
+  
+  const hamNavClick = () => {
+    setNavbarOpen(!navbarOpen)
+    // console.log('mobilehamnavclick');
+  }
+
   return (
+    <>
     <nav>
-        <input id="nav-toggle" type="checkbox"></input>
-        
         <ul className="links">
             
             <li><Link to="./">Home</Link></li>
@@ -27,14 +32,24 @@ function Navbar() {
             <li><Link to="./Contact">Contact</Link></li>
             
         </ul>
-
-        <label htmlFor="nav-toggle" className="icon-burger">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-        </label>
-
     </nav>
+
+    <div className="icon-burger" onClick={hamNavClick}>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+    </div>
+
+    <ul className="mobile-links" style={navbarOpen ? {display:"flex"} : {display:"none"}}>          
+      <li><Link to="./" onClick={closeMenu}>Home</Link></li>
+      <li><Link to="./Developer" onClick={closeMenu}>Developer</Link></li>
+      <li><Link to="./Designer" onClick={closeMenu}>Designer</Link></li>
+      <li><Link to="./Photographer" onClick={closeMenu}>Photographer</Link></li>
+      <li><Link to="./About" onClick={closeMenu}>About Me</Link></li>
+      <li><Link to="./Contact" onClick={closeMenu}>Contact</Link></li>
+    </ul>
+</>
+
   
   );
 }
