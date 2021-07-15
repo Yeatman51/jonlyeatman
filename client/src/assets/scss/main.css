@@ -50,17 +50,17 @@ body {
 .header-text {
   font-family: digital-7;
   text-align: center;
-  font-size: 4vw;
-  margin-bottom: 10px;
+  font-size: 4.2vw;
+  margin: 2.5vw 0 2.5vw 0;
 }
 
 @media screen and (max-width: 900px) {
-  .header-text {
-    font-size: 31px;
+  .yeatman-logo {
+    padding: 11vw;
   }
 
-  .yeatman-logo {
-    padding: 45px;
+  .header-text {
+    font-size: 8vw;
   }
 }
 /* Footer */
@@ -629,7 +629,7 @@ label {
 
   .developer-text-header {
     font-size: 15vw;
-    margin: 17vw 0px 4vw 0;
+    margin: 18vw 0px 4vw 0;
   }
 
   .developer-text-paragraph {
@@ -705,7 +705,7 @@ label {
 @media screen and (max-width: 900px) {
   .designer-text-header {
     font-size: 15vw;
-    margin: 17vw 0px 4vw 0;
+    margin: 18vw 0px 4vw 0;
   }
 
   .designer-text-paragraph {
@@ -762,7 +762,7 @@ label {
 @media screen and (max-width: 900px) {
   .photographer-text-header {
     font-size: 15vw;
-    margin: 17vw 0px 4vw 0;
+    margin: 18vw 0px 4vw 0;
   }
 
   .photographer-text-paragraph {
@@ -856,7 +856,7 @@ label {
 @media screen and (max-width: 900px) {
   .contact-text-header {
     font-size: 15vw;
-    margin: 17vw 0px 4vw 0;
+    margin: 18vw 0px 4vw 0;
   }
 
   .contact-text-paragraph {
