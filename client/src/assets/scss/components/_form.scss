@@ -1,23 +1,8 @@
-.contact-form-container {
-    min-height: 80vh;
+.contact-form-container{
     display: flex;
     flex-direction: column;
+    align-content: center;
     align-items: center;
-}
-
-.contact-text-header {
-    color: white;
-    font-family: digital-7;
-    font-size: 5em;
-    text-align: center;
-}
-
-.contact-form-text {
-    color: white;
-    font-family: digital-7;
-    font-size: 3em;
-    text-align: center;
-
 }
 
 .contact-form {
@@ -93,5 +78,7 @@ label {
 }
 
 @media screen and (max-width: 900px) {
-
+    .contact-form-container{ 
+        min-height: 52vh;
+    }
 }

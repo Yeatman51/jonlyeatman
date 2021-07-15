@@ -115,8 +115,6 @@ function Form() {
 
     return (
         <div className="contact-form-container">
-            <h1 className="contact-text-header">Contact</h1> 
-            <h2 className="contact-form-text">JON YEATMAN</h2>
 
             <form className="contact-form" id="message-form">
                 

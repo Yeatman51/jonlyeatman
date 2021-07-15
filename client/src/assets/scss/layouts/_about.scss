@@ -21,9 +21,9 @@
   align-items: center;
   align-content: center;
   text-align: center;
-  margin: 20px 0 0 0;
-  padding: 0;
-  font-size: 30px;
+  margin: 2.5vw 0 0 0;
+  padding: 0 1vw 0 1vw;
+  font-size: 3vw;
 }
 
 .dividers-line {
@@ -44,15 +44,15 @@
 // }
 
 .resume {
-  font-family: digital-7;
-  display: flex;
+  background-color: var(--org);
   color: white;
-  margin-top: 15px;
+  font-family: digital-7;
   text-decoration: none;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 45px;
-  background-color: var(--org);
+  margin: 2vw 0 0 0;
+  font-size: 4.5vw;
 }
 
 .secret-message {
@@ -63,22 +63,26 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
-  margin: 10px 0 5px 0;
+  font-size: 2.5vw;
+  margin: 1vw 0 .5vw 0;
+  padding: 0 1vw 0 1vw;
 }
 
 @media screen and (max-width: 900px) {
   /* about pg */
   .about-text {
-    font-size: 22px;
+    font-size: 6.5vw;
+    padding: 0 2vw 0 2vw;
+  }
+
+  .resume {
+    font-size: 9.5vw;
   }
 
   .secret-message {
-    font-size: 20px;
-    margin: 10px 0 5px 0;
-  }
-  .icon-header {
-    font-size: 32px;
+    font-size: 5.5vw;
+    margin: 1vw 0 .5vw 0;
+    padding: 0 1vw 0 1vw;
   }
 
 }
