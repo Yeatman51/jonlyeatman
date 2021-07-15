@@ -6,14 +6,14 @@
   .developer-text-header {
     color: white;
     font-family: digital-7;
-    font-size: 70px;
+    font-size: 9vw;
     text-align: center;
-    margin: 40px 0px 15px 0;
+    margin: 5vw 0 4vw 0;
   }
   
   .developer-text-paragraph {
     color: white;
-    font-size: 20px;
+    font-size: 5vw;
   }
   
   .portfolio-container {
@@ -44,15 +44,17 @@
     }
   
     .developer-text-header {
-      font-size: 60px;
-      margin: 40px 0px 15px 0;
+      font-size: 15vw;
+      margin: 17vw 0px 4vw 0;
     }
   
     .developer-text-paragraph {
-      font-size: 20px;
+      font-size: 10vw;
     }
     .portfolio-container {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       align-content: center;
       margin-left: auto;
       margin-right: auto;
@@ -62,6 +64,7 @@
     .portfolio-container-row {
       flex-direction: column;
       align-content: center;
+      align-items: center;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1px;

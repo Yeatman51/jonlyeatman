@@ -75,13 +75,14 @@ function Developer() {
 
   return (
     <div>
+      
       <div className="developer-text-container">
         <h2 className="developer-text-header">Developer</h2>
 
         <p className="developer-text-paragraph">
 
         </p>
-    </div>
+      </div>
 
     <div className="dividers-line"></div>
 

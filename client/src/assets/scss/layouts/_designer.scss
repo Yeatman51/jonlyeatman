@@ -6,15 +6,15 @@
   .designer-text-header {
     color: white;
     font-family: digital-7;
-    font-size: 5em;
+    font-size: 9vw;
     text-align: center;
-    margin: 40px 0px 15px 0;
+    margin: 5vw 0 4vw 0;
   }
   
   .designer-text-paragraph {
     text-align: center;
     color: white;
-    font-size: 1.5em;
+    font-size: 5vw;
   }
   
   .dividers-line {
@@ -51,12 +51,12 @@
   
   @media screen and (max-width: 900px) {
     .designer-text-header {
-      font-size: 70px;
-      margin: 40px 0px 15px 0;
+      font-size: 15vw;
+      margin: 17vw 0px 4vw 0;
     }
   
     .designer-text-paragraph {
-      font-size: 20px;
+      font-size: 10vw;
     }  
     .gd-gallery {
         grid-template-columns: minmax(300px, 1fr);
