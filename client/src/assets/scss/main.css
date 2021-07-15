@@ -428,29 +428,29 @@ label {
 }
 
 /* home pg */
+.cont-profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+.profile-pic {
+  width: 25vw;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #252525;
+}
+
 .about-text-home {
-  margin-top: 20px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   justify-items: center;
   text-align: center;
-  font-size: 30px;
-}
-
-.cont-profile-pic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.profile-pic {
-  width: 215px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px #252525;
+  margin: 1vw 0 1vw 0;
+  padding: 0;
+  font-size: 2.5vw;
 }
 
 .dividers-line {
@@ -464,7 +464,7 @@ label {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 45px;
+  font-size: 4vw;
 }
 
 .code-logos-container {
@@ -472,15 +472,15 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  margin-bottom: 27px;
+  margin-bottom: 2vw;
 }
 
 .code-logos {
   justify-items: center;
   align-items: center;
   text-align: center;
-  font-size: 25px;
-  width: 220px;
+  font-size: 2.5vw;
+  width: 18vw;
 }
 .code-logos img {
   max-width: 100%;
@@ -489,7 +489,7 @@ label {
 }
 
 .code-logos h3 {
-  margin-top: -25px;
+  margin-top: -2.5vw;
 }
 
 .design-logos {
@@ -497,7 +497,7 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  margin-bottom: 27px;
+  margin-bottom: 2vw;
 }
 .design-logos img {
   max-width: 100%;
@@ -507,31 +507,38 @@ label {
 
 .email {
   font-family: digital-7;
-  margin-top: 20px;
+  margin: 1vw 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   justify-items: center;
   text-align: center;
-  font-size: 45px;
+  font-size: 5vw;
 }
 
 @media screen and (max-width: 900px) {
   .cont-profile-pic {
-    margin-top: 2px;
+    margin: 20vw 0 0 0;
   }
 
   .profile-pic {
-    width: 140px;
+    width: 60vw;
   }
 
   .about-text-home {
-    font-size: 22px;
+    padding: 0 1vw 0 1vw;
+    font-size: 6vw;
+    margin: 3vw 0 0 0;
   }
 
   .code-logos {
     width: 100%;
+    font-size: 6.5vw;
+  }
+
+  .icon-header {
+    padding: 0 1vw 0 1vw;
   }
 
   .code-logos-container {
@@ -543,7 +550,7 @@ label {
   }
 
   .email {
-    font-size: 35px;
+    font-size: 7.5vw;
   }
 }
 /* Developer */
@@ -738,44 +745,20 @@ label {
 }
 /* about pg */
 .about-text {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
   text-align: center;
+  margin: 20px 0 0 0;
+  padding: 0;
   font-size: 30px;
-}
-
-.cont-profile-pic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.profile-pic {
-  width: 215px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px #252525;
 }
 
 .dividers-line {
   border-top: 5px solid white;
   margin-top: 10px;
-}
-
-.email {
-  font-family: digital-7;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  text-align: center;
-  font-size: 45px;
 }
 
 .resume {
@@ -806,14 +789,6 @@ label {
   /* about pg */
   .about-text {
     font-size: 22px;
-  }
-
-  .about-text-home {
-    font-size: 22px;
-  }
-
-  .email {
-    font-size: 35px;
   }
 
   .secret-message {

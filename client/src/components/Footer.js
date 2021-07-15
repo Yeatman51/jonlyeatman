@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div><br/><br/><br/>
+    
     <footer id="footer-relative">
         <div className="foot-wrapper">
             
@@ -42,7 +42,6 @@ function Footer() {
         </div>
       
     </footer>
-    </div>
   
   );
 }
