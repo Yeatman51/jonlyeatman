@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <>
-    <nav>
+    <nav className="desktop-navigation">
         <ul className="links">
             
             <li><Link to="./">Home</Link></li>
@@ -40,6 +40,7 @@ function Navbar() {
       <div className="line"></div>
     </div>
 
+  <nav className="mobile-navigation">
     <ul className="mobile-links" style={navbarOpen ? {display:"flex"} : {display:"none"}}>          
       <li><Link to="./" onClick={closeMenu}>Home</Link></li>
       <li><Link to="./Developer" onClick={closeMenu}>Developer</Link></li>
@@ -48,6 +49,7 @@ function Navbar() {
       <li><Link to="./About" onClick={closeMenu}>About Me</Link></li>
       <li><Link to="./Contact" onClick={closeMenu}>Contact</Link></li>
     </ul>
+  </nav>
 </>
 
   

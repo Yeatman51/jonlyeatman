@@ -162,7 +162,7 @@ footer {
 }
 
 /* navbar */
-nav {
+.desktop-navigation {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -187,11 +187,9 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-
 .links li {
   list-style: none;
 }
-
 .links a {
   display: inline-block;
   margin: 0 2px 0 2px;
@@ -229,13 +227,16 @@ nav {
 
 @media screen and (max-width: 900px) {
   /* navbar */
-  nav {
+  .desktop-navigation {
     display: none;
   }
 
   .icon-burger {
     display: block;
     z-index: 2;
+    position: relative;
+    float: right;
+    margin-top: 4vw;
   }
   .icon-burger .line {
     background-color: var(--org);
@@ -245,16 +246,19 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     position: fixed;
     z-index: 1;
     left: 0;
     right: 0;
-    top: 175px;
+    top: 21.5vh;
+    bottom: 0;
     width: auto;
     height: auto;
     background-color: rgba(0, 0, 0, 0.8);
     overflow: hidden;
     box-sizing: border-box;
+    padding: 0;
     transition: all 0.5s ease-in-out;
   }
   .mobile-links li {
@@ -262,6 +266,9 @@ nav {
   }
   .mobile-links a {
     text-decoration: none;
+    color: white;
+    font-size: 7vw;
+    text-shadow: 0px 0px 8px #726f6f, 0px 0px 25px #726f6f;
   }
 }
 .dev-info {
