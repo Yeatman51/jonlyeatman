@@ -65,14 +65,13 @@ body {
 }
 /* Footer */
 footer {
+  overflow: hidden;
   font-family: digital-7;
+  background-color: #ca6410;
   border-top: 5px solid white;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background-color: var(--org);
-  /* width: 100%; */
-  margin-top: 25px;
-  overflow: hidden;
+  padding: 2.5vw;
+  margin-top: 2.5vw;
 }
 
 #footer-relative {
@@ -92,33 +91,32 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
 .foot-wrapper .icon-button {
   display: inline-block;
-  height: 60px;
-  width: 60px;
-  margin: 0 5px;
+  height: 6vw;
+  width: 6vw;
+  margin: 0 1vw 0 1vw;
   overflow: hidden;
-  background: var(--blue);
-  border-radius: 50px;
+  background: #094D84;
+  border-radius: 4vw;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-out;
 }
 
 .foot-wrapper .icon-button:hover {
-  width: 200px;
+  width: 20vw;
 }
 
 .foot-wrapper .icon-button .icon {
   display: inline-block;
   color: white;
-  height: 60px;
-  width: 60px;
+  height: 6vw;
+  width: 6vw;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 50%;
   box-sizing: border-box;
-  line-height: 60px;
+  line-height: 70px;
   transition: all 0.3s ease-out;
 }
 
@@ -135,8 +133,8 @@ footer {
 }
 
 .foot-wrapper .icon-button .icon i {
-  font-size: 25px;
-  line-height: 60px;
+  font-size: 3.5vw;
+  line-height: 6vw;
   transition: all 0.3s ease-out;
 }
 
@@ -145,10 +143,9 @@ footer {
 }
 
 .foot-wrapper .icon-button span {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 60px;
-  margin-left: 10px;
+  font-size: 2.5vw;
+  line-height: 70px;
+  margin: 0 1vw 0 1vw;
   transition: all 0.3s ease-out;
 }
 
@@ -161,6 +158,43 @@ footer {
   text-decoration: none;
 }
 
+@media screen and (max-width: 900px) {
+  .foot-wrapper .icon-button {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin: 0 1vw 0 1vw;
+  }
+  .foot-wrapper .icon-button .icon {
+    height: 15vw;
+    width: 15vw;
+    line-height: 15vw;
+    transition: none;
+  }
+  .foot-wrapper .icon-button .icon i {
+    font-size: 9vw;
+    line-height: 15vw;
+  }
+  .foot-wrapper .icon-button span {
+    display: none;
+  }
+
+  .foot-wrapper .icon-button:hover {
+    display: contents;
+  }
+
+  .foot-wrapper .icon-button:nth-child(1):hover .icon {
+    background: #094D84;
+  }
+
+  .foot-wrapper .icon-button:nth-child(2):hover .icon {
+    background: #094D84;
+  }
+
+  .foot-wrapper .icon-button:nth-child(3):hover .icon {
+    background: #094D84;
+  }
+}
 /* navbar */
 .desktop-navigation {
   position: relative;
