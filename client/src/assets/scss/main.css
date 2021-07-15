@@ -355,8 +355,8 @@ footer {
   font-family: digital-7;
   border-radius: 25px;
   color: white;
-  margin: 10px;
-  padding: 10px;
+  margin: 2vw 0 2vw 0;
+  padding: 2vw 0 2vw 0;
   width: 100%;
 }
 
@@ -364,10 +364,6 @@ label {
   color: white;
   font-size: 2vw;
   margin: 0.5vw 0vw 0.5vw 5vw;
-}
-
-.contact-form-label-name {
-  text-align: start;
 }
 
 .contact-form-name,
@@ -416,6 +412,47 @@ label {
 @media screen and (max-width: 900px) {
   .contact-form-container {
     min-height: 52vh;
+  }
+
+  .contact-form {
+    min-height: 50vh;
+    max-width: 95vw;
+    border-radius: 25px;
+    margin: 5.5vw 0 2.5vw 0;
+    padding: 2vw 0 2vw 0;
+    width: 100%;
+  }
+
+  label {
+    color: white;
+    font-size: 8vw;
+    margin: 0.5vw 0vw 0.5vw 5vw;
+  }
+
+  .contact-form-name,
+.contact-form-email,
+.contact-form-subject,
+.contact-form-message {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid #ca6410;
+    border-radius: 1rem;
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vw auto 1vw auto;
+    padding: 1vw 1.3vw 1vw 1.3vw;
+    min-width: 85%;
+    max-width: 94%;
+  }
+
+  .contact-form-submit {
+    font-family: digital-7;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #ca6410;
+    border-radius: 1rem;
+    font-size: 9.5vw;
+    padding: 1.5vw;
+    margin: 1.5vw;
   }
 }
 /* home pg */
