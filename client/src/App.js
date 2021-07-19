@@ -10,7 +10,7 @@ import Developer from './pages/Developer.js';
 import Designer from './pages/Designer.js';
 import Photographer from './pages/Photographer.js';
 import About from './pages/About.js';
-import Contact from './pages/Contact.js';
+// import Contact from './pages/Contact.js';
 import Footer from './components/Footer.js';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/Designer" component={Designer} />
           <Route exact path="/Photographer" component={Photographer} />
           <Route exact path="/About" component={About} />  
-          <Route exact path="/Contact" component={Contact} />  
+          {/* <Route exact path="/Contact" component={Contact} />   */}
       </Wrapper>
       </Router>
 

@@ -29,7 +29,7 @@ function Navbar() {
             <li><Link to="./Designer">Designer</Link></li>
             <li><Link to="./Photographer">Photographer</Link></li>
             <li><Link to="./About">About Me</Link></li>
-            <li><Link to="./Contact">Contact</Link></li>
+            {/* <li><Link to="./Contact">Contact</Link></li> */}
             
         </ul>
     </nav>
@@ -47,7 +47,7 @@ function Navbar() {
       <li><Link to="./Designer" onClick={closeMenu}>Designer</Link></li>
       <li><Link to="./Photographer" onClick={closeMenu}>Photographer</Link></li>
       <li><Link to="./About" onClick={closeMenu}>About Me</Link></li>
-      <li><Link to="./Contact" onClick={closeMenu}>Contact</Link></li>
+      {/* <li><Link to="./Contact" onClick={closeMenu}>Contact</Link></li> */}
     </ul>
   </nav>
 </>
