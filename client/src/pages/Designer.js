@@ -87,8 +87,23 @@ function Designer() {
     },
     {
       key: 17,
+      imgSrc:"/images/designs-img/Yeatman_GD_24.png",
+      alt:"Wander"
+    },
+    {
+      key: 18,
       imgSrc:"/images/designs-img/Yeatman_GD_22.png",
       alt:"Orca Whale logo"
+    },
+    {
+      key: 19,
+      imgSrc:"/images/designs-img/Yeatman_GD_25.jpg",
+      alt:"Biscuit butter"
+    },
+    {
+      key: 20,
+      imgSrc:"/images/designs-img/Yeatman_GD_23.png",
+      alt:"Eagle logo"
     }
   ]
   return (
