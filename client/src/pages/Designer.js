@@ -8,82 +8,87 @@ function Designer() {
     {
       key: 1,
       imgSrc:"/images/designs-img/Yeatman_GD_2.png",
-      alt:"pic",
+      alt:"Aggressive Metals",
     },
     {
       key: 2,
       imgSrc:"/images/designs-img/MiPonderosaV2_Final.png",
-      alt:"pic",
+      alt:"Mipronderosa",
     },
     {
       key: 3,
       imgSrc:"/images/designs-img/Yeatman_GD_3.png",
-      alt:"pic"
+      alt:"y'all come back now"
     },
     {
       key: 4,
       imgSrc:"/images/designs-img/Yeatman_GD_4.png",
-      alt:"pic"
+      alt:"iron river ranch"
     },
     {
       key: 5,
       imgSrc:"/images/designs-img/Yeatman_GD_11.png",
-      alt:"pic"
+      alt:"Incendiary Brewing Company"
     },
     {
       key: 6,
       imgSrc:"/images/designs-img/Yeatman_GD_5.png",
-      alt:"pic"
+      alt:"Village Grill"
     },
     {
       key: 7,
       imgSrc:"/images/designs-img/Yeatman_GD_7.png",
-      alt:"pic"
+      alt:"Lakeland Invitational"
     },
     {
       key: 8,
       imgSrc:"/images/designs-img/Yeatman_GD_10.png",
-      alt:"pic"
+      alt:"Half Off Pizza"
     },
     {
       key: 9,
       imgSrc:"/images/designs-img/Yeatman_GD_9.png",
-      alt:"pic"
+      alt:"Nick Polydoras 48"
     },
     {
       key: 10,
       imgSrc:"/images/designs-img/Yeatman_GD_6.png",
-      alt:"pic"
+      alt:"Robinson family"
     },
      {
       key: 11,
       imgSrc:"/images/designs-img/Yeatman_GD_20.png",
-      alt:"pic"
+      alt:"Rick portal"
     },
      {
       key: 12,
       imgSrc:"/images/designs-img/phoenix-printing.png",
-      alt:"pic"
+      alt:"Phoenix UI"
     },
      {
       key: 13,
       imgSrc:"/images/designs-img/Yeatman_GD_17.png",
-      alt:"pic"
+      alt:"Mama Bear"
     },
      {
       key: 14,
       imgSrc:"/images/designs-img/Yeatman_GD_21.png",
-      alt:"pic"
+      alt:"The blue spirit"
     },
      {
       key: 15,
       imgSrc:"/images/designs-img/Yeatman_GD_19.png",
-      alt:"pic"
+      alt:"Successful printing logo"
     },
     {
       key: 16,
       imgSrc:"/images/designs-img/Yeatman_GD_16.png",
-      alt:"pic"
+      alt:"Mosaic image"
+    },
+    {
+      key: 17,
+      imgSrc:"/images/designs-img/Yeatman_GD_22.png",
+      alt:"Orca Whale logo"
     }
   ]
   return (
