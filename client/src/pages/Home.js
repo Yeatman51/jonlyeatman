@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProfilePic from '../assets/img/yeatman-profile-picture.jpg'
+import ProfilePic from '../assets/img/yeatman-profile.jpg'
 
 import html from '../assets/img/icons/code-icon/code-html.png'
 import css from '../assets/img/icons/code-icon/code-css.png'
