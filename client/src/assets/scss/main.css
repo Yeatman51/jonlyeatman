@@ -723,11 +723,11 @@ label {
   /* grid-template-rows: repeat(5, 400px); */
   grid-gap: 15px;
   overflow: hidden;
-  width: 100%;
   justify-content: center;
   justify-items: center;
   align-items: center;
   object-fit: cover;
+  margin: 1vw 1vw 0 1vw;
 }
 
 .gd-gallery-img {
@@ -748,7 +748,7 @@ label {
 
   .gd-gallery {
     grid-template-columns: minmax(300px, 1fr);
-    margin: 0px;
+    margin: 3vw;
   }
 }
 /* Photographer pg */

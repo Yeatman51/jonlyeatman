@@ -104,6 +104,16 @@ function Designer() {
       key: 20,
       imgSrc:"/images/designs-img/Yeatman_GD_23.png",
       alt:"Eagle logo"
+    },
+    {
+      key: 21,
+      imgSrc:"/images/ui-ux-img/kayaking_adventure.png",
+      alt:"Eagle logo"
+    },
+    {
+      key: 22,
+      imgSrc:"/images/ui-ux-img/account_login.png",
+      alt:"Eagle logo"
     }
   ]
   return (
