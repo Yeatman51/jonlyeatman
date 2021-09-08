@@ -716,8 +716,8 @@ label {
 /* CSS grid */
 .gd-gallery {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   /* grid-template-columns: minmax(400px, 1fr); */
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
   /* grid-template-rows: repeat(5, 400px); */
@@ -727,7 +727,7 @@ label {
   justify-items: center;
   align-items: center;
   object-fit: cover;
-  margin: 1vw 1vw 0 1vw;
+  margin: 2vw 1vw 0 1vw;
 }
 
 .gd-gallery-img {

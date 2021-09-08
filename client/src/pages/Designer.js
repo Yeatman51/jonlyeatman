@@ -108,12 +108,17 @@ function Designer() {
     {
       key: 21,
       imgSrc:"/images/ui-ux-img/kayaking_adventure.png",
-      alt:"Eagle logo"
+      alt:"kayaking adventure"
     },
     {
       key: 22,
+      imgSrc:"/images/ui-ux-img/walnut_creek.png",
+      alt:"account login"
+    },
+    {
+      key: 23,
       imgSrc:"/images/ui-ux-img/account_login.png",
-      alt:"Eagle logo"
+      alt:"account login"
     }
   ]
   return (
