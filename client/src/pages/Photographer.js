@@ -7,22 +7,22 @@ function Photographer() {
   const photographyImages = [
     {
       key: 1,
-      imgSrc:"/images/photos-img/Yeatman_1.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_1.jpg",
       alt:"pic"
     },
     {
       key: 2,
-      imgSrc:"/images/photos-img/Yeatman_2.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_2.jpg",
       alt:"pic"
     },
     {
       key: 3,
-      imgSrc:"/images/photos-img/Yeatman_3.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_3.jpg",
       alt:"pic"
     },
     {
       key: 4,
-      imgSrc:"/images/photos-img/Yeatman_4.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_4.jpg",
       alt:"pic"
     },
     {
