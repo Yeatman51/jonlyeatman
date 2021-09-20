@@ -27,22 +27,22 @@ function Photographer() {
     },
     {
       key: 5,
-      imgSrc:"/images/photos-img/Yeatman_5.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_5.jpg",
       alt:"pic"
     },
     {
       key: 6,
-      imgSrc:"/images/photos-img/Yeatman_6.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_6.jpg",
       alt:"pic"
     },
     {
       key: 7,
-      imgSrc:"/images/photos-img/Yeatman_7.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_7.jpg",
       alt:"pic"
     },
     {
       key: 8,
-      imgSrc:"/images/photos-img/Yeatman_8.jpg",
+      imgSrc:"/images/photos-lowq-img/Yeatman_8.jpg",
       alt:"pic"
     },
     {
