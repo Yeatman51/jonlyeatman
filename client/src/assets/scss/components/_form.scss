@@ -11,8 +11,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: linear-gradient($blue, $orange);
-    border: 3px solid $orange;
+   //  background-image: linear-gradient($blue, $orange);
+   background-color: rgba(12, 12, 12, 0.404);
+    border: 3px solid white;
     font-family: digital-7;
     border-radius: 25px;
     color: white;
@@ -24,7 +25,7 @@
 label {
     color: white;
     font-size: 2vw;
-    margin: .5vw 0vw .5vw 5vw;
+    margin: .6vw 0vw .2vw 5vw;
 }
 
 .contact-form-name,
@@ -36,7 +37,7 @@ label {
     border-radius: 1rem;
     color: white;
     font-size: 1.5vw;
-    margin: 1vw auto 1vw auto;
+    margin: 0.5vw auto 1vw auto;
     padding: 1vw 1.3vw 1vw 1.3vw;
     min-width: 85%;
 }
@@ -57,7 +58,7 @@ label {
 
 .contact-form-submit{
     font-family: digital-7;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.15);
     color: white;
     border: 3px solid $orange;
     border-radius: 1rem;
@@ -67,9 +68,21 @@ label {
 
 .contact-form-submit:hover,
 .contact-form-submit:focus {
-    // background-color: rgba(255, 255, 255, 0.15);
-    color: $orange;
+    background-color: transparent;
+    color: white;
     border: 3px solid white;
+}
+
+#contact-form-send{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 5vw auto 1vw auto;
+}
+
+.contact-form-result {
+   margin: auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -79,7 +92,7 @@ label {
 
     .contact-form {
         min-height: 50vh;
-        max-width: 95vw;
+        max-width: 90vw;
         border-radius: 25px;
         margin: 5.5vw 0 2.5vw 0;
         padding: 2vw 0 2vw 0;
@@ -89,7 +102,7 @@ label {
     label {
         color: white;
         font-size: 8vw;
-        margin: .5vw 0vw .5vw 5vw;
+        margin: .6vw 0vw .2vw 5vw;
     }
     
     .contact-form-name,
@@ -101,7 +114,7 @@ label {
         border-radius: 1rem;
         color: white;
         font-size: 6.5vw;
-        margin: 1vw auto 1vw auto;
+        margin: 0.5vw auto 1vw auto;
         padding: 1vw 1.3vw 1vw 1.3vw;
         min-width: 85%;
         max-width: 94%;
@@ -109,9 +122,9 @@ label {
 
     .contact-form-submit{
         font-family: digital-7;
-        background-color: transparent;
-        color: white;
-        border: 3px solid $orange;
+      //   background-color: transparent;
+      //   color: white;
+      //   border: 3px solid $orange;
         border-radius: 1rem;
         font-size: 9.5vw;
         padding: 1.5vw;

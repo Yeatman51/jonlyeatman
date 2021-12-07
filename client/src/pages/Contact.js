@@ -55,8 +55,8 @@ function Contact() {
                   <label htmlFor="contact-form-label-message">Message</label>
                   <textarea className="contact-form-message" name="message" />
                   
-                  <input className="contact-form-submit" type="submit" value="Send Message" />
-                  <div>{result ? <Result /> : null}</div>
+                  <div className="contact-form-result">{result ? <Result /> : null}</div>
+                  <input className="contact-form-submit" id="contact-form-send" type="submit" value="Send Message" />
                </form>
             </div>
             
