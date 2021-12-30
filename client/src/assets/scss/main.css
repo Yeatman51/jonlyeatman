@@ -699,7 +699,9 @@ label {
     margin-bottom: 2px;
   }
 
-  .portfolio-container-row {
+  .portfolio-container-row-1,
+.portfolio-container-row-2,
+.portfolio-container-row-3 {
     flex-direction: column;
     align-content: center;
     align-items: center;
